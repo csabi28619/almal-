@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(56, 0, 0);/* Text */
+    color: #FAFAFA; /* HEXA */
+}
+
+h1{
+    color:  rgb(255, 0, 0); /* RGB */
+    font-size: 200px;
+    text-align: center;
+}
+p, a{
+    font-size: 25px;
+}
+a{
+    background-color: #FAFAFA;
+    color: pink;
+    text-decoration:none; /* Aláhúzás leszedése */
+    padding: 10px; /* belső margó */
+}
+img{
+    height: 1000px
+}

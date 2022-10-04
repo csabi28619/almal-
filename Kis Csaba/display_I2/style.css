@@ -1,0 +1,13 @@
+div{
+    height: 80px;
+    background-color: greenyellow;
+    border: 1px solid black;
+
+}
+.inline-div{
+    display: inline;
+}
+.inline-block-div{
+    display: inline-block;
+    width: 200px;
+}
