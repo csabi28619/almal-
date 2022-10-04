@@ -1,0 +1,75 @@
+body{
+  background-color: #ededc1;
+  background-size: 70px 70px;
+  background-repeat: repeat-y;
+  background-position: right top;
+  padding: 15px 95px 15px 15px;
+  background-image: url(hatterkocka.png);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#cimkep{
+  float:left;  
+}
+
+h1{
+  left: 50px;
+  bottom: 40px;
+  margin: 40px 0px 100px 175px;
+  color: #443502;
+  position: relative;
+}
+h2{
+  color: #443502;
+}
+
+p{
+  text-align: justify;
+  color: #443502;
+}
+
+
+.jobbra{
+  text-align: right;
+}
+
+#erdekeseg{
+  font-size: 70%;
+  padding: 7px;
+  font-weight: normal;
+  background-color: white;
+  font-style: bold;
+
+}
+
+li{
+ font-style: bold;
+}
+#a{
+  margin-left: 80%;
+}
+img{
+  margin-right: 100%;
+  height: 200px;
+  position: relative;
+  top: 150px;
+}
+li{
+  font-weight: bold;
+  list-style: square;
+}
+#c{
+  text-align: right;
+  
+}
+#d{
+  font-size: 70%;
+  padding: 7px;
+  font-weight: normal;
+  background-color: white;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
