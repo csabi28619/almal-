@@ -1,0 +1,30 @@
+body{
+margin: 0;
+width: 100%;
+min-height: 100vh;
+background-color: black;
+
+
+
+}
+
+#frame{
+box-sizing: border-box;
+padding: 20px;
+background-color: red;
+display: inline-block;
+
+position:absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50% ,-50%);
+}
+
+
+input[type="submit"]{
+float: right;
+padding: 10px;
+background-color: gainsboro;
+
+}
+
