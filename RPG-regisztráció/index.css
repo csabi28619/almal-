@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    width: 100px;
+    min-height: 100px;
+    font-weight: bold;
+    background-color: FAFAFA;
+}
+#frame{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lime;
+    display: inline-block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 10px 10px 0px black;
+}
+select{
+    width: 100%;
+
+}
+input[type="submit"]{
+    float: right;
+    padding: 10px;
+    background-color: aqua;
+
+
+}
+input[type="radio"]{
+    width: 100%;
+}
