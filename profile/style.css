@@ -1,0 +1,46 @@
+.div-pfpic{
+height: 200px;
+width: 200px;
+margin: auto;
+background-color: gray;
+border-radius: 50%;
+}
+.div-pic{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: gray;
+
+}
+
+.container{
+max-width: 700px;
+
+}
+.div[class*="col-"]{
+padding-top: 20px;
+
+
+}
+#romapfp{
+background-image: url(romabox.jpg);
+background-position: center;
+background-size: 400px;
+}
+#erosroma{
+background-image: url(erosroma.jpg);
+background-position: center;
+background-size: 200px;
+
+}
+#fiam{
+background-image: url(fiam.jpg);
+background-position: center;
+
+}
+#mario{
+background-image: url(mario.jpg);
+background-position: center;
+background-size: 350px;
+
+}
