@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #playground{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .card{
+        width: 80px;
+        height: 80px;
+        background-color: yellow;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        font-size: 2rem;
+
+    
+    
+    
+    }
+    .picked{
+        background-color: greenyellow;
+    }
