@@ -19,3 +19,10 @@ overflow: hidden;
     background-image: url(letöltés.png);
     background-position: center;
 }
+ .rotten{
+    background-color: darkgreen;
+    background-image: url(rotten.png);
+    background-position: center;
+    background-size: 500px;
+ }
+ 

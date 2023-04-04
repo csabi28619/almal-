@@ -14,7 +14,13 @@ egg.style.top =(Math.floor(Math.random()*-500)-100) + "px"
 egg.style.left = Math.floor(Math.random()*window.innerWidth) + "px"
 egg.style.top = (Math.floor(Math.random()*-500)-100) + "px"
 
+if(Math.random()*10 <3){
+egg.classList.add("rotten")
 
+}
+if(egg.classList.contains("rotten")){
+    document.title = document.title*1 -100
+}
 
 document.body.appendChild(egg)
 console.log("egg created",egg)
