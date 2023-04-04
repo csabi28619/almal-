@@ -24,11 +24,20 @@ for (let i = 0; i < 10 ; i++){
 setInterval(()=>{
 eggs.forEach((egg)=>{
 let newTop = egg.style.top.replace("px","")*1 + 5
+
+if(newTop> window.innerHeight +200){
+newTop = Math.floor(Math.random()*-500)
+
+}
+
+
+
+
  egg.style.top = newTop + "px"
 
 })
 
-},200)
+},15)
 
 
 
