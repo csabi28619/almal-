@@ -1,9 +1,15 @@
 let eggs =  []
 
+document.title = 0
 
 function giveMeEgg(){
 let egg = document.createElement("div")
 egg.classList.add("egg")
+
+egg.onclick = () => {
+document.title= document.title*1 + 1
+egg.style.top =(Math.floor(Math.random()*-500)-100) + "px"
+}
 
 egg.style.left = Math.floor(Math.random()*window.innerWidth) + "px"
 egg.style.top = (Math.floor(Math.random()*-500)-100) + "px"
