@@ -30,9 +30,9 @@
                 Resolution = adatok[4];
                 Range = adatok[5];
                 Interface = adatok[6];
-                LFC = adatok[7] == "yes"? true : false ;
-                Freesync = adatok[8] == "yes" ? true : false;
-                HDR = adatok[9] == "yes" ? true : false;
+                LFC = adatok[7] == "Yes"? true : false ;
+                Freesync = adatok[8] == "Yes" ? true : false;
+                HDR = adatok[9] == "Yes" ? true : false;
             }
         }
         static void Main()
@@ -232,7 +232,7 @@
             Console.WriteLine($"\n2) Legalább 2000 pixeles oszlopszámú monitorok: {nagy2000}");
 
             // 3) Listázza képernyőre azokat a monitorokat, amelyek HDR képesek és legalább 27" képátlóval rendelkeznek!
-            var hdrNagyMonitorok = monitorok.Where(m => m.HDR == true && int.Parse(m.Size.TrimEnd()) >= 27 );
+            var hdrNagyMonitorok = monitorok.Where(m => m.HDR == true && int.Parse(m.Size.Remove(m.Size.Length-1)) >= 27 );
             Console.WriteLine("\n3) HDR képes és legalább 27\" monitorok:");
             foreach (var monitor in hdrNagyMonitorok)
             {
